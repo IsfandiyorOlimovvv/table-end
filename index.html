@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table bilan LocalStorage</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+        <h1 class="count">0</h1>
+        <button class="decre">Decrement</button>
+        <button class="incre">Increment</button>
+        
+        <form action="">
+            <input type="text" placeholder="Enter item" />
+            <button type="submit" class="submit">Submit</button>
+        </form>
+        
+        <ul class="ulist"></ul>
+        <button class="clear-all">Clear All</button>
+     
+        
+           
+
+
+
+
+<h1>Table bilan LocalStorage</h1>
+
+<div>
+    <input type="text" id="nameInput" placeholder="Name">
+    <button id="submitNameBtn">Submit</button>
+</div>
+
+<div style="margin-top: 20px;">
+    <input type="text" id="newName" placeholder="Name">
+    <input type="number" id="newAge" placeholder="Age">
+    <button id="addRowBtn">AddNameAge</button>
+</div>
+
+<div id="tableContainer">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+
+<script src="./app.js"></script>
+</body>
+</html>

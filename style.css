@@ -1,0 +1,180 @@
+body {
+    font-family: Arial,  sans-serif; 
+   }
+#tableContainer { 
+   margin-top: 20px; 
+}
+table { 
+   width: 100%;
+    border-collapse: collapse;
+    }
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+     text-align: center;
+    }
+th { 
+   background-color: #f2f2f2;
+}
+.action-button {
+    padding: 5px 10px;
+    margin: 2px;
+     cursor: pointer;
+    }
+.del-button { 
+   background-color: #f44336;
+    color: white;
+     border: none;
+    }
+.edit-button {
+    background-color: #ffeb3b;
+    color: black;
+     border: none;
+    } 
+#submitNameBtn{
+   padding: 5px 10px;
+   margin: 2px;
+   cursor: pointer;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 50px;
+}
+#submitNameBtn:hover{
+   background-color:red;
+
+}
+
+#addRowBtn{
+   padding: 5px 10px;
+   margin: 2px;
+   cursor: pointer;
+   background-color: yellowgreen;
+   color: white;
+   border: none;
+   border-radius: 50px;
+}
+
+#addRowBtn:hover{
+   background-color: red;
+
+} 
+
+
+  
+
+
+
+
+
+   
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+}
+
+
+h1.count {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.incre {
+   border-radius: 50px;
+    background-color: #4CAF50; 
+}
+
+.decre {
+   border-radius: 50px;
+    background-color: #f44336; 
+}
+
+.submit {
+   border-radius: 50px;
+    background-color: #007BFF; 
+}
+
+.clear-all {
+    background-color: #ff9800; 
+}
+
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+
+button:focus {
+
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+
+button:active {
+    transform: translateY(2px);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.ulist {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.ulist li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: #333;
+}
